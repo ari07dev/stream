@@ -6,7 +6,7 @@ import os
 import time
  
 # Configure your API Key (Securely stored in Streamlit secrets)
-genai.configure(api_key="AIzaSyCg8YAJ4YXFgw11rbfTVi-xvwby5FTRvT8")
+genai.configure(api_key="")
  
 st.title("🏭 Industrial Action Sequence Analyzer")
 st.write("Upload a workstation video to automatically generate an action sequence report.")
